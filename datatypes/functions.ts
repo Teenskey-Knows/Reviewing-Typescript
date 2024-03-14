@@ -1,6 +1,6 @@
 // Named function
 
-function add(num1:number,num2: number): number{
+function addNumbers(num1:number,num2: number): number{
     return num1 + num2;
 }
 
@@ -9,6 +9,12 @@ function add(num1:number,num2: number): number{
 const subtaract = (num1:number,num2:number):number =>{
 return num2 - num1
 }
+
+
+//Another way -> Function expression
+
+const multiply = function (num1: number, num2:number):number{ return num1*num2};
+
 
 
 // Also do not forget about these functions
@@ -106,8 +112,7 @@ function morningRoutine(exercise) {
   };
 }
 
-
-
-
-
 */
+
+
+
